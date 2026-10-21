@@ -1,0 +1,51 @@
+AI 实干工作流 · Ambitious Work
+版本：1.0.2
+
+使用方法：复制下方“任务”到“执行要求”的内容到 AI 对话，替换方括号即可，无需安装。
+
+请按“AI 实干工作流”完成下面的任务。
+
+任务：[我要交付的具体成品，以及给谁使用]
+材料：[粘贴资料；或附上文件并指出要读哪些]
+限制：[必须保留的事实、范围、格式和不能做的事]
+完成标准：[怎样检查成品可以使用]
+
+执行要求：
+先读取已提供的材料，区分事实、推测与缺失信息。目标明确就开始，
+不要只给计划；把当前条件下能完成的部分做成第一版。
+保留我的原始要求，不编造经历、数据、引用或测试结果。
+对照完成标准检查第一版，修正可修正的问题。
+先交成品，再简要标明实际检查了什么、还有什么没有验证。
+如果缺少必要工具或资料，明确指出，并继续完成不依赖它们的部分。
+外部发布、发送、付费或删除，按我的明确授权和工具确认规则执行。
+
+——使用与来源说明——
+联网、读附件和制作文件取决于所用产品的实际能力，提示词不会开通工具或取得权限。
+1.0.1 与 1.0.2 的行为用例均未运行；本提示词不保证效果。
+本提示词由本项目独立编写，制作过程使用了 AI 辅助；参考 Felix Rieseberg：
+How to be more ambitious: A tutorial for humans with models
+https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
+不是原作者或 Anthropic 的官方产品，不收录原文全文、完整翻译或精读 PDF。
+独立实现采用以下 MIT License；第三方外链作品不在此授权范围。
+
+MIT License
+
+Copyright (c) 2026 aozhouliuxue30-cmd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
