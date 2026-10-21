@@ -1,23 +1,23 @@
 {
   "interface": {
-    "displayName": "\u91ce\u5fc3\u5de5\u4f5c\u6cd5",
-    "shortDescription": "\u628a\u5f00\u653e\u5f0f\u4efb\u52a1\u8f6c\u6210\u53ef\u9a8c\u8bc1\u6210\u679c",
-    "longDescription": "\u56f4\u7ed5\u901f\u5ea6\u3001\u9ad8\u5ea6\u3001\u6df1\u5ea6\u4e0e\u5e7f\u5ea6\u9009\u62e9\u5de5\u4f5c\u65b9\u6cd5\uff0c\u5305\u542b\u6311\u6218\u5047\u8bbe\u3001\u72ec\u7acb\u9a8c\u8bc1\u3001\u5c0f\u5b9e\u9a8c\u3001\u5de5\u5177\u6743\u9650\u548c\u7f16\u8f91\u8fb9\u754c\u3002\u9644\u5e94\u7528\u914d\u65b9\u3001\u63d0\u793a\u8bcd\u3001\u4e3b\u9898\u5bf9\u7167\u548c\u56de\u5f52\u6d4b\u8bd5\u7528\u4f8b\u3002\u53c2\u8003 Felix Rieseberg \u6587\u7ae0\u53ca\u9879\u76ee\u65e9\u671f\u7684\u4e2d\u6587\u7cbe\u8bfb\u6750\u6599\u72ec\u7acb\u7f16\u5199\uff0c\u975e\u4f5c\u8005\u5b98\u65b9 Skill\u3002",
+    "displayName": "AI 实干工作流 · Ambitious Work",
+    "shortDescription": "让 AI 从建议走到可检查成品",
+    "longDescription": "把研究、作品集、求职与项目任务转成有证据、可检查的成品。附无需安装的入门提示词、完整示例与可复用 Skill。保留原始要求，明确工具与权限，区分实际完成和未验证结果。参考 Felix Rieseberg 文章独立编写，非作者官方产品。",
     "developerName": "aozhouliuxue30-cmd",
     "category": "Productivity",
     "capabilities": [
-      "\u76ee\u6807\u4e0e\u7ea6\u675f\u68c0\u67e5",
-      "\u539f\u59cb\u8bc1\u636e\u5206\u6790",
-      "\u53ef\u9a8c\u8bc1\u6210\u679c\u4ea4\u4ed8"
+      "目标与约束检查",
+      "原始证据分析",
+      "可验证成果交付"
     ],
     "defaultPrompt": [
-      "\u7528\u91ce\u5fc3\u5de5\u4f5c\u6cd5\u5b8c\u6210\u6211\u7684\u4efb\u52a1\uff0c\u4e0d\u8981\u53ea\u7ed9\u8ba1\u5212\u3002",
-      "\u7528\u91ce\u5fc3\u5de5\u4f5c\u6cd5\u68c0\u9a8c\u8fd9\u4efd\u65b9\u6848\u7684\u5047\u8bbe\uff0c\u5e76\u5b8c\u6210\u53ef\u4ee5\u6267\u884c\u7684\u90e8\u5206\u3002"
+      "用野心工作法完成我的任务，不要只给计划。",
+      "用野心工作法检验这份方案的假设，并完成可以执行的部分。"
     ]
   },
   "name": "ambitious-work",
-  "version": "1.0.1",
-  "description": "\u72ec\u7acb\u6539\u7f16\u7684\u4e2a\u4eba\u5de5\u4f5c\u6d41\uff1a\u4ece\u76ee\u6807\u3001\u8bc1\u636e\u3001\u4e13\u4e1a\u65b9\u6cd5\u548c\u8de8\u9886\u57df\u534f\u4f5c\u51fa\u53d1\uff0c\u5b9e\u9645\u5b8c\u6210\u5e76\u9a8c\u8bc1\u4efb\u52a1\u3002",
+  "version": "1.0.2",
+  "description": "把研究、作品集和求职任务推进到可检查成品的 AI 工作流，附可直接复制的提示词与上手示例。",
   "author": {
     "name": "aozhouliuxue30-cmd"
   },
