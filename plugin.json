@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ambitious-work",
+  "version": "1.0.1",
+  "description": "独立改编的个人工作流：从目标、证据、专业方法和跨领域协作出发，实际完成并验证任务。",
+  "keywords": [
+    "research",
+    "design",
+    "workflow",
+    "verification",
+    "ambition"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "野心工作法",
+        "shortDescription": "把开放式任务转成可验证成果",
+        "longDescription": "围绕速度、高度、深度与广度选择工作方法，包含挑战假设、独立验证、小实验、工具权限和编辑边界。附应用配方、提示词、主题对照和回归测试用例。参考 Felix Rieseberg 文章及项目早期的中文精读材料独立编写，非作者官方 Skill。",
+        "developerName": "aozhouliuxue30-cmd",
+        "category": "Productivity",
+        "capabilities": [
+          "目标与约束检查",
+          "原始证据分析",
+          "可验证成果交付"
+        ],
+        "defaultPrompt": [
+          "用野心工作法完成我的任务，不要只给计划。",
+          "用野心工作法检验这份方案的假设，并完成可以执行的部分。"
+        ]
+      }
+    }
+  },
+  "author": {
+    "name": "aozhouliuxue30-cmd"
+  }
+}
