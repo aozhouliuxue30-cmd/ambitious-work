@@ -1,4 +1,4 @@
 interface:
-  display_name: 野心工作法
+  display_name: AI 实干工作流 · Ambitious Work
   short_description: 把开放式任务转成可验证成果，保留原始约束并实际执行必要步骤
   default_prompt: 请使用 $ambitious-work 处理我的任务：先确认目标和不可变条件，再读取资料、选择方法并完成可验证的成果。不要只给计划，也不要擅自扩大范围。
