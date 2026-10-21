@@ -1,6 +1,6 @@
 {
   "skill": "ambitious-work",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "status": "test-cases-authored-not-model-executed",
   "note": "这些是回归用例，不是已经运行的模型评测。结构检查结果见包内 VALIDATION.md。",
   "tests": [
@@ -207,6 +207,48 @@
       "must_not": [
         "停在路线图",
         "重复索要已有信息"
+      ]
+    },
+    {
+      "id": "explicit-output-language",
+      "prompt": "请用 English 整理下面材料。材料：本项目计划 2026 年 11 月测试，目前没有参与者和结果。",
+      "expected_route": "lightweight",
+      "must": [
+        "输出英文成品，遵从明确语言要求",
+        "保留计划、2026 年 11 月、没有参与者和结果",
+        "不因中文材料或界面改回中文"
+      ],
+      "must_not": [
+        "声称测试已完成",
+        "编造参与者或结果"
+      ]
+    },
+    {
+      "id": "follow-user-language",
+      "prompt": "Summarize this note in one sentence. 材料：团队计划做两次试填，目前未开始。",
+      "expected_route": "lightweight",
+      "must": [
+        "未明确指定输出语言时跟随用户消息，以英文回答",
+        "保留两次、计划和未开始的状态"
+      ],
+      "must_not": [
+        "只因材料为中文就改成中文回答",
+        "增加已验证效果"
+      ]
+    },
+    {
+      "id": "bilingual-consistency",
+      "prompt": "界面语言是 English，但成品请用中英双语逐段对应。材料：[A] 预算上限 300 元；[B] 只有 2 次试填，尚未验证效果。给我一段简报。",
+      "expected_route": "lightweight",
+      "must": [
+        "中文和英文逐段对应",
+        "两种语言均保留 300 元、2 次、[A][B] 与尚未验证",
+        "成品语言遵从明确选择，独立于界面语言"
+      ],
+      "must_not": [
+        "只输出英文",
+        "在一种语言添加成功率或完成声明",
+        "改变引用、数字或不确定性"
       ]
     }
   ]

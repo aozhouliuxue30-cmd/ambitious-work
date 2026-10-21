@@ -1,15 +1,19 @@
 # 直接试用的例子
 
-版本：1.0.2 · AI 实干工作流 · Ambitious Work
+[中文](README.md) | [English](README.en.md)
 
-复制任一示例中的完整输入到 AI 对话，即可开始。练习资料均为本项目编写的虚构教学材料，不需要上传私人文件；实际使用时替换为你自己的材料。
+版本：1.1.0 · AI 实干工作流 · Ambitious Work
 
-| 例子 | 练习内容 | 检查重点 |
+复制任一示例中的完整输入到 AI 对话即可开始，并选择输出语言：中文、English 或中英双语。练习资料均为虚构教学材料，不需要上传私人文件；实际使用时换成自己的材料。也可在完整源码包的离线工具中填写任务并生成提示词。
+
+| 中文例子 | English example | 检查重点 |
 | --- | --- | --- |
-| [项目简报](project-brief.md) | 把反馈笔记整理成下一步决策依据 | 证据编号、替代解释、未验证假设 |
-| [简历修改](resume-review.md) | 把现有经历对齐岗位要求 | 职责真实、数据缺失、团队边界 |
-| [学习小试验](learning-experiment.md) | 从一份可检查的初稿开始 | 有成品、有限范围、明确停止条件 |
+| [项目简报](project-brief.md) | [Project brief](project-brief.en.md) | 证据编号、替代解释、未验证假设 |
+| [简历修改](resume-review.md) | [Resume revision](resume-review.en.md) | 职责真实、缺失数据、团队边界 |
+| [学习小试验](learning-experiment.md) | [Learning experiment](learning-experiment.en.md) | 有成品、有限范围、明确停止条件 |
 
-每个例子的预期输出结构和简短参考片段是人工编写的验收说明，制作过程使用了 AI 辅助。它们不是模型已通过的行为测试结果。现有 15 个行为用例尚未执行。
+[中文入门 TXT](quick-prompt.txt) 与 [English starter TXT](quick-prompt.en.txt) 适合自己的任务。明确语言要求优先；未指定时跟随用户消息语言。双语逐段对应，保持数字、引用、事实与限定一致。
 
-这些示例采用根目录 [MIT License](../LICENSE)，来源边界见 [NOTICE.md](../NOTICE.md)。
+预期输出结构和参考片段是验收说明，制作过程使用了 AI 辅助，不是模型已通过测试的记录。18 个行为用例全部未运行模型行为评测。
+
+示例采用根目录 [MIT License](../LICENSE)，来源边界见 [NOTICE.md](../NOTICE.md)。

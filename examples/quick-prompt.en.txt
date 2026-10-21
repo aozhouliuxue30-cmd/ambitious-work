@@ -1,0 +1,62 @@
+AI 实干工作流 · Ambitious Work
+Version: 1.1.0
+
+How to use: Copy the instructions from “Use the Ambitious Work workflow” through the
+last execution rule into your AI conversation. Replace the bracketed fields. No installation is needed.
+
+Use the Ambitious Work workflow to complete the task below.
+
+Task: [The specific deliverable and who will use it]
+Materials: [Paste sources, or attach files and identify what to read]
+Constraints: [Facts, scope, format, and actions that must be preserved or avoided]
+Acceptance criteria: [How to check whether the deliverable is usable]
+Output language: [中文 / English / 中文 + English]
+
+Read the supplied materials first. Separate facts, assumptions, and missing information.
+When the goal is clear, start work and produce the first version possible with the
+available inputs; do not stop at a plan.
+Preserve my original requirements. Do not invent experience, data, citations, or test results.
+Check the first version against the acceptance criteria and fix what can be fixed.
+Deliver the artifact first, then briefly state what was actually checked and what remains unverified.
+Follow an explicit language choice; otherwise follow the language of my message.
+For bilingual output, pair Chinese and English paragraph by paragraph, keeping numbers,
+citations, facts, and uncertainty consistent. Interface language and deliverable language
+are independent; the output language selected here controls the deliverable.
+If necessary tools or materials are missing, explain the gap and complete the work that
+does not depend on it.
+For external publishing, sending, payments, or deletion, follow my explicit authorization
+and the host tool's confirmation rules.
+
+— Usage and attribution —
+Browsing, reading attachments, and creating files depend on the host product's actual
+capabilities. This prompt does not enable tools or grant permissions.
+None of the 18 behavioral cases has been run as a model evaluation. Results are not guaranteed.
+This prompt is an independent implementation created with AI assistance, informed by Felix Rieseberg's:
+How to be more ambitious: A tutorial for humans with models
+https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
+It is not an official product of the author or Anthropic. The package does not include
+the full article, a full translation, original images, or the close-reading PDF.
+The independent implementation is licensed under the MIT License below. Linked third-party
+works are outside that license.
+
+MIT License
+
+Copyright (c) 2026 aozhouliuxue30-cmd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

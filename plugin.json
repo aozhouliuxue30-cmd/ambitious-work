@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ambitious-work",
-  "version": "1.0.2",
-  "description": "把研究、作品集和求职任务推进到可检查成品的 AI 工作流，附可直接复制的提示词与上手示例。",
+  "version": "1.1.0",
+  "description": "支持中文、English 与中英双语的 AI 工作流，附离线提示词工具、上手示例与可复用 Skill。",
   "keywords": [
     "research",
     "design",
@@ -14,12 +14,12 @@
     "com.openai": {
       "interface": {
         "displayName": "AI 实干工作流 · Ambitious Work",
-        "shortDescription": "让 AI 从建议走到可检查成品",
-        "longDescription": "把研究、作品集、求职与项目任务转成有证据、可检查的成品。附无需安装的入门提示词、完整示例与可复用 Skill。保留原始要求，明确工具与权限，区分实际完成和未验证结果。参考 Felix Rieseberg 文章独立编写，非作者官方产品。",
+        "shortDescription": "中英双语提示词与可检查成品工作流",
+        "longDescription": "把研究、作品集、求职与项目任务转成有证据、可检查的成品。附中文 / English 离线界面、独立输出语言选择、可复制下载的提示词、完整示例与可复用 Skill。工具不调用模型、不上传输入、无密钥。保留原始要求，区分实际完成和未验证结果。参考 Felix Rieseberg 文章独立编写，非作者官方产品。",
         "developerName": "aozhouliuxue30-cmd",
         "category": "Productivity",
         "capabilities": [
-          "目标与约束检查",
+          "中英双语输出",
           "原始证据分析",
           "可验证成果交付"
         ],

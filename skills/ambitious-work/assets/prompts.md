@@ -2,6 +2,8 @@
 
 全部为本 Skill 新写的提示词，不是原文逐字引文。括号中的内容由用户填写，未提供的信息不能被模型编造。
 
+所有模板可附加“输出语言：中文 / English / 中英双语”。明确要求优先；未指定跟随用户消息语言。双语逐段对应，数字、引用、事实与限定一致；界面语言与成品语言独立。
+
 ## 通用执行
 
 使用野心工作法处理【任务】。先从已有材料确认我真正要达成的结果和不能改变的要求，再选择有用的方法。能直接读取、制作和检验的部分就实际完成，不要只给计划。把新增建议与原任务分开，把已验证、尚未验证和缺少条件的部分说清楚。
@@ -37,3 +39,28 @@
 ## 严格编辑
 
 用野心工作法帮我检查后面的文字，但本次只允许润色：保留事实、观点、限定、语气、标题、代码、链接和数据。不扩写，不补论据，不改完成状态。只交最终稿；事实疑点另作短注。
+
+## English general entry point
+
+Use the Ambitious Work workflow to complete the task below.
+
+Task: [The specific deliverable and who will use it]
+Materials: [Paste sources, or attach files and identify what to read]
+Constraints: [Facts, scope, format, and actions that must be preserved or avoided]
+Acceptance criteria: [How to check whether the deliverable is usable]
+Output language: [中文 / English / 中文 + English]
+
+Read the supplied materials first. Separate facts, assumptions, and missing information.
+When the goal is clear, start work and produce the first version possible with the
+available inputs; do not stop at a plan.
+Preserve my original requirements. Do not invent experience, data, citations, or test results.
+Check the first version against the acceptance criteria and fix what can be fixed.
+Deliver the artifact first, then briefly state what was actually checked and what remains unverified.
+Follow an explicit language choice; otherwise follow the language of my message.
+For bilingual output, pair Chinese and English paragraph by paragraph, keeping numbers,
+citations, facts, and uncertainty consistent. Interface language and deliverable language
+are independent; the output language selected here controls the deliverable.
+If necessary tools or materials are missing, explain the gap and complete the work that
+does not depend on it.
+For external publishing, sending, payments, or deletion, follow my explicit authorization
+and the host tool's confirmation rules.
