@@ -1,6 +1,6 @@
 {
   "skill": "ambitious-work",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "status": "test-cases-authored-not-model-executed",
   "note": "这些是回归用例，不是已经运行的模型评测。结构检查结果见包内 VALIDATION.md。",
   "tests": [
